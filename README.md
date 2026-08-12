@@ -44,14 +44,23 @@ LLM_Final_Codes/
 
 ```
 Knowledge Base
-        ↓
-[Approach 1] Precision-Based Approach
-        ↓
-[Approach 2] Coverage-Based Approach (Less Aggressive)
-        ↓
-[Fine-tuning + Post-processing] Answer Verification & Refinement
-        ↓
-Final Answer
+      │
+      ├──────────────→ Approach 1
+      │                 Precision RAG
+      │
+      └──────────────→ Approach 2
+                        Coverage RAG
+                            │
+                            ↓
+                  Fine-tuned Verification
+                            │
+                            ↓
+                    Post-processing
+                     ├─ Approach 1 fallback
+                     └─ DDG retrieval
+                            │
+                            ↓
+                       Final Answer
 ```
 
 ---
