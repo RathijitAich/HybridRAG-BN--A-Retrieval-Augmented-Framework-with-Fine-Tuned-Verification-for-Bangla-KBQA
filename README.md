@@ -362,7 +362,8 @@ Knowledge Base
 
 ### **Dataset & Competition**
 
-- **Dataset:** Indic-RAG-Suite (from AI4Bharat)
+- **Dataset:** Indic-RAG-Suite (from AI4Bharat) https://huggingface.co/datasets/ai4bharat/Indic-Rag-Suite
+- **Dataset Subset (Used in the training and testing):** https://www.kaggle.com/code/ratnajitdhar08/creating-dataset-for-ml-contest
 - **Competition:** IEEE CS CUET ML Contest 2.0 - Advanced Track
 - **Paper:** Included in this repository
 
